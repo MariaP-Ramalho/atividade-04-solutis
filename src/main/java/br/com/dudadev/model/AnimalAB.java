@@ -23,16 +23,16 @@ public class AnimalAB implements AnimalIF {
 
     @Override
     public void comer() {
-        System.out.println("Essa classe não foi implementada ainda");
+        throw new UnsupportedOperationException("Método comer não implementado.");
     }
 
     @Override
     public void moverse() {
-        System.out.println("Essa classe não foi implementada ainda");
+        throw new UnsupportedOperationException("Método moverse não implementado.");
     }
 
     @Override
     public void dormir() {
-        System.out.println("Essa classe não foi implementada ainda");
+        throw new UnsupportedOperationException("Método dormir não implementado.");
     }
 }
